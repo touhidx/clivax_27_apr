@@ -30,6 +30,7 @@
  <section class="blog_area section-padding">
      <div class="container">
          <div class="row">
+            
              <div class="col-lg-8 mb-5 mb-lg-0">
                  <div class="blog_left_sidebar">
                      <article class="blog_item">
@@ -43,7 +44,7 @@
 
                          <div class="blog_details">
                              <a class="d-inline-block" href="single-blog.html">
-                                 <h2>Google inks pact for new 35-storey office</h2>
+                                 <h2>{{$blog->title}}</h2>
                              </a>
                              <p>That dominion stars lights dominion divide years for fourth have don't stars is that
                                  he earth it first without heaven in place seed it second morning saying.</p>

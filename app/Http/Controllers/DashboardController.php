@@ -12,6 +12,7 @@ class DashboardController extends Controller
     }
     public function blogdetails()
     {
+        
         return view('userview.blogdetails');
     }
     public function blogcontact()
