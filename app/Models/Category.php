@@ -11,6 +11,6 @@ class Category extends Model
     protected $guarded=[];
     public function blogs()
     {
-        return $this->hasMany(Category::class, 'category_id');
+        return $this->hasMany(Blog::class, 'category_id');
     }
 }
